@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:day2}",
+            "name": "Debug Day2",
+            "program": "${workspaceFolder:day2}/.build/debug/Day2",
+            "preLaunchTask": "swift: Build Debug Day2"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:day2}",
+            "name": "Release Day2",
+            "program": "${workspaceFolder:day2}/.build/release/Day2",
+            "preLaunchTask": "swift: Build Release Day2"
+        }
+    ]
+}
